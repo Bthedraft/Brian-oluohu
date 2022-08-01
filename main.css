@@ -1,8 +1,8 @@
 body{
-    background: #fff;
+    
     margin: 45px 40px;
     padding: 0;
-    max-width: 992px;
+    max-width: 100%;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -43,9 +43,9 @@ a{
 
 .featured{
     display: grid;
-    grid-template-columns: 2.5fr 2.5fr;
+    grid-template-columns: 50% 50%;
     width: 100%;
-    gap: 50px;
+   
 }
 
 .featured > img{
@@ -143,6 +143,28 @@ ul, li{
 
 
 
+/*about statement brief*/
+
+.myself{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 280px;
+   
+    
+    
+}
+
+
+/*profile picture*/
+
+.aboutpic{
+    justify-self: end;
+    margin-right: 60px;
+}
+
+
+
+
 
 
 
@@ -155,3 +177,4 @@ ul, li{
         gap: 50px;
     }
 }
+
